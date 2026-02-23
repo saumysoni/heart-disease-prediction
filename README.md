@@ -3,13 +3,15 @@
 ## 📌 Project Overview
 This project was developed as part of the **Statistical Machine Learning** coursework during my Master's program at Arizona State University. It focuses on predicting the presence of heart disease using the UCI Heart Disease dataset. By analyzing various non-invasive clinical attributes, this project implements and compares six different machine learning classification models to determine which provides the most reliable diagnostic support.
 
-![Machine Learning Workflow](images/workflow_placeholder.png)
+![Machine Learning Workflow](images/workflow.jpeg)
 
 ## 📊 Dataset Description
 The project utilizes the **UCI Heart Disease dataset**, consisting of **303 instances** and **14 key attributes** (13 predictive features and 1 target variable). The complete list of features includes:
 
 ## 📊 Dataset Description
 The project utilizes the **UCI Heart Disease dataset**, consisting of **303 instances** and **14 key attributes** (13 predictive features and 1 target variable). The complete list of features includes:
+
+![Feature Distribution](images/distribution.png)
 
 **Demographics:**
 * **age:** Age of the patient in years
@@ -35,7 +37,7 @@ The project utilizes the **UCI Heart Disease dataset**, consisting of **303 inst
 **Target Variable:**
 * **target:** Diagnosis of heart disease (0 = less chance of heart disease, 1 = more chance of heart disease)
 
-![Correlation Heatmap](images/heatmap_placeholder.png)
+![Feature Importance](images/importance.png)
 
 ## 🛠️ Methodology
 The project follows a rigorous data science pipeline to ensure high model reliability:
@@ -57,7 +59,7 @@ We compared six classification algorithms:
 
 We used four primary metrics for evaluation: **Accuracy Score, F1-Score, Jaccard Index, and Log Loss**.
 
-![Model Comparison Chart](images/results_chart_placeholder.png)  
+![Model Comparison Chart](images/results.png)  
 
 ## 🏆 Key Findings & Results
 * **Top Performer:** The **Random Forest Classifier** demonstrated the highest overall performance across all accuracy and F1-score metrics.
