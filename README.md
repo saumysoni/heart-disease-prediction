@@ -74,5 +74,11 @@ We used four primary metrics for evaluation: **Accuracy Score, F1-Score, Jaccard
 ```text
 ├── HEART.ipynb                  # Full Python implementation, EDA, and model training
 ├── CSE575_Group10_Report.pdf    # Detailed Statistical Machine Learning Project Report
+├── images/                        # Dataset folder (UCI Heart Disease)
+|   ├── workflow.jpeg
+|   ├── distribution.png
+|   ├── results.png
+|   └── importance.png
+|
 └── dataset/                        # Dataset folder (UCI Heart Disease)
     └── heart-dataset.csv           # CSV File
